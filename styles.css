@@ -1,0 +1,61 @@
+body {
+    background: rgb(216, 213, 213);
+    color: whitesmoke;
+}
+
+.card {
+    width: 31.25rem;
+    background: aliceblue;
+    padding: 1.50rem;
+    margin: 10rem auto;
+    box-shadow: 3px 3px 10px 0px rgb(116, 113, 113);
+    background: url(./second.jpg) no-repeat;
+    background-size: cover;
+}
+
+.header{
+    font-size: 1.1rem;
+    font-family: monospace;
+}
+
+.body{
+    text-align: center;
+    margin: 30px 10px;
+    font-size: 1.1rem;
+    font-style: italic;
+    /*color: rgb(65, 63, 63);*/
+}
+
+.foot-note{
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.buttons {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons p {
+    width: 45%;
+    display: inline-block;
+    font-size: 2.5rem;
+    text-align: center;
+    color: rgb(101, 101, 243);
+}
+
+.body span {
+    color: black;
+    font-weight: bolder;
+}
+
+.btn {
+   
+    padding: 3px 15px;
+}
+
+.btn:hover {
+    border: 1px solid rgb(209, 204, 204);
+}
